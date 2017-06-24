@@ -1,4 +1,4 @@
-# concurrent map [![Circle CI](https://circleci.com/gh/insionng/cmap.png?style=badge)](https://circleci.com/gh/insionng/cmap)
+# concurrent map
 
 As explained [here](http://golang.org/doc/faq#atomic_maps) and [here](http://blog.golang.org/go-maps-in-action), the `map` type in Go doesn't support concurrent reads and writes. `cmap` provides a high-performance solution to this by sharding the map with minimal time spent waiting for locks.
 
